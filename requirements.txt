@@ -1,0 +1,15 @@
+# Simulator
+simpy>=4.1
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+polars>=0.20
+matplotlib>=3.7
+XlsxWriter>=3.1
+pyarrow>=14.0
+openpyxl>=3.1
+
+# Preprocessing only (travel-time matrices, interarrival ECDFs)
+# openrouteservice>=2.3
+# requests>=2.31
+# tqdm>=4.66

@@ -1,0 +1,33 @@
+# Raw mission-level data: personal data, never commit
+raw/*
+!raw/README.md
+
+# Data derived from ARES 118 records: not published until authorised
+data/*
+!data/README.md
+
+# Any copy of the raw dataset that ends up elsewhere
+dataframe*.parquet
+*_clean.parquet
+
+# Simulation output (the reports in simulator/report_* are published,
+# those obtained on the synthetic example data are not)
+report_*_example/
+log.txt
+arrival_diagnostics.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Paper under revision (tex + pdf for the supervisor): not published yet
+paper/
